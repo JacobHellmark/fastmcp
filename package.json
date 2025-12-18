@@ -1,5 +1,5 @@
 {
-  "name": "fastmcp",
+  "name": "@jacobhellmark/fastmcp",
   "version": "1.0.0",
   "main": "dist/FastMCP.js",
   "scripts": {
@@ -56,13 +56,16 @@
       "optional": true
     }
   },
+  "publishConfig": {
+    "branch": "cjs-publish"
+  },
   "repository": {
-    "url": "https://github.com/punkpeye/fastmcp"
+    "url": "https://github.com/JacobHellmark/fastmcp"
   },
   "homepage": "https://glama.ai/mcp",
   "release": {
     "branches": [
-      "main"
+      "cjs-publish"
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
